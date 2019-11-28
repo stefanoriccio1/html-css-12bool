@@ -1,0 +1,14 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* debug */
+
+.container{
+  width: 1170px;
+  height: 500px;
+  margin: 0;
+  background-color: lightgreen;
+}
