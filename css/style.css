@@ -14,3 +14,11 @@
   background-color: pink;
   border: 1px solid black;
 }
+
+.bottom{
+  background-color: red;
+  border: 2px solid white;
+}
+.col-6.container{
+  padding: 5px;
+}
