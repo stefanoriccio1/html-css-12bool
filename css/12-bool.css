@@ -19,7 +19,6 @@
   clear: both;
 }
 
-
 /* debug colonne */
 [class*="col-"]{
   float: left;
