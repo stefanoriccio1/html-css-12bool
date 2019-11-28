@@ -6,12 +6,13 @@
 
 /* debug generale*/
 
-.container{
+.debug{
   width: 1170px;
   height: 500px;
   margin: 0;
   background-color: lightgreen;
 }
+
 .container:after{
   content: "";
   display: block;
