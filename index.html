@@ -106,12 +106,36 @@
         </div>
       </div>
       <!-- inizio esercizio bonus -->
+      <!-- prima riga con offset -->
       <div class="container bonus">
         <div class="col-2">
           <p>Ciao</p>
         </div>
         <div class="col-2 col-offset-8">
           <p><strong>Ciao</strong></p>
+        </div>
+      </div>
+      <!-- seconda riga nesting e offset -->
+      <div class="container">
+        <div class="col-5 container">
+          <div class="col-6">
+            <p>Test</p>
+          </div>
+          <div class="col-6">Test2</div>
+        </div>
+        <div class="col-3 col-offset-2 container">
+          <div class="col-2">
+            <p>Login</p>
+          </div>
+          <div class="col-2">
+            <p>Logout</p>
+          </div>
+          <div class="col-5 col-offset-3">
+            <p>Credits</p>
+          </div>
+        </div>
+        <div class="col-1 col-offset-1 container">
+          <p>Hello World</p>
         </div>
       </div>
   </body>
